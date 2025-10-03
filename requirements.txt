@@ -1,0 +1,18 @@
+rich>=13.0.0
+Pillow>=10.0.0
+pillow-heif>=0.13.0
+aiohttp
+bd09convertor
+coordinatesconverter
+numpy
+protobuf>4
+pycryptodome
+pyequilib
+pyexiv2
+pyproj
+requests
+scipy
+
+# Optional: For Look Around equirectangular conversion (large download ~200MB)
+torch>=2.0.0
+torchvision>=0.15.0

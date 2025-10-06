@@ -58,7 +58,7 @@ python panorama_downloader.py
    - Download Street View? (Yes/No)
    - Download Look Around? (Yes/No)
 3. **Set filename template**
-   - Default: `{lat}_{lon}.jpg`
+   - Default: `{lat}_{lon}_{date}.jpg`
    - Variables: `{id}`, `{lat}`, `{lon}`, `{date}`
 
 4. **Choose Look Around quality**

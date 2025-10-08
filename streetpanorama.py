@@ -304,6 +304,7 @@ def lookaround_task(progress, task_id, tiles, output_dir, filename_template, zoo
 
     def download_worker():
         """Producer: Downloads all 6 faces and puts them in the queue."""
+        nonlocal errors, processed_panos
         try:
             for pano_idx, pano in enumerate(all_panos):
                 logger.info(f"Look Around: Downloading panorama {pano_idx+1}/{total_expected_panos}: {pano.id} at {pano.lat:.6f}, {pano.lon:.6f}")

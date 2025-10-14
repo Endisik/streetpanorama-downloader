@@ -34,7 +34,7 @@ pip install streetlevel --no-deps
 ### 1. Start the program
 
 ```bash
-python panorama_downloader.py
+python streetpanorama.py
 ```
 
 ### 2. Workflow
